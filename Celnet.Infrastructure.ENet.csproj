@@ -5,14 +5,19 @@
         <Nullable>enable</Nullable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Celnet.Infrastructure.ENet</Title>
+        <Description>Peer implementation for Celnet.Domain</Description>
+        <Copyright>(c) 2023 Fabian Seidl</Copyright>
+        <PackageProjectUrl>https://github.com/skrax/Celnet.Infrastructure.ENet</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/skrax/Celnet.Infrastructure.ENet</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Celnet.Domain\Celnet.Domain.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Celnet.ENet" Version="1.0.0" />
+        <PackageReference Include="Celnet.Domain" Version="1.0.1" />
+        <PackageReference Include="Celnet.ENet" Version="1.0.0" />
     </ItemGroup>
 
 </Project>
