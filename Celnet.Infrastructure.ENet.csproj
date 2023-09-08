@@ -6,7 +6,7 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Celnet.Infrastructure.ENet</Title>
-        <Description>Peer implementation for Celnet.Domain</Description>
+        <Description>Peer implementation of Celnet.Domain using ENet</Description>
         <Copyright>(c) 2023 Fabian Seidl</Copyright>
         <PackageProjectUrl>https://github.com/skrax/Celnet.Infrastructure.ENet</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -18,7 +18,7 @@
     <ItemGroup>
         <PackageReference Include="Celnet.Domain" Version="1.0.1" />
         <PackageReference Include="Celnet.ENet" Version="1.0.0" />
-        <None Include="README.md" Pack="true" PackagePath="\"/>
+        <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 </Project>
