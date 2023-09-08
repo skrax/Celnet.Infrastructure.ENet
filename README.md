@@ -86,4 +86,4 @@ We welcome contributions to the Celnet.Infrastructure.ENet library. If you have 
 
 ## License
 
-This library is licensed under the MIT License. See the [LICENSE](https://github.com/yourusername/celnet-enet/blob/main/LICENSE) file for details.
+This library is licensed under the MIT License. See the [LICENSE](https://github.com/skrax/Celnet.Infrastructure.ENet/blob/main/LICENSE) file for details.
