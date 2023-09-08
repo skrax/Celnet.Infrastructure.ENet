@@ -33,6 +33,9 @@ bool isConnected = client.IsConnected;
 
 // Disconnect from the server
 client.Disconnect();
+
+// Dispose the client
+client.Dispose()
 ```
 
 ### Server Implementation
