@@ -13,6 +13,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <RepositoryUrl>https://github.com/skrax/Celnet.Infrastructure.ENet</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
